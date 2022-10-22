@@ -1,0 +1,78 @@
+body {
+  background-color: #2D2D2D;
+}
+
+.box {
+  border: 2px solid #C26356;
+  margin: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#chatbar {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#chatbar p {
+  color: white;
+}
+
+#typebar {
+  background-color: #efa49a;
+}
+
+#bot-text {
+  text-align: left;
+  font-style: italic;
+}
+
+#user-text {
+  text-align: right;
+}
+
+h1 {
+  color: #C26356;
+  font-size: 30px;
+  font-family: Menlo, Monaco, fixed-width;
+  text-align:center;
+  padding: 20px;
+}
+
+p,h4,.postbutton {
+  color: black;
+  font-family: "Source Code Pro", Menlo, Monaco, fixed-width;
+}
+
+form {
+  width: 100%;
+  margin: 10 auto;
+  height: 35px;
+  position: relative;
+}
+
+input[type=text] {
+  border: none;
+  background-color: #efa49a;
+  border-radius: 0px;
+  color: black;
+  font-family: "Source Code Pro", Menlo, Monaco, fixed-width;
+  outline-width: 0;
+  width: 80%;
+  height: 30px;
+  position: absolute;
+  left:0;
+}
+
+input[type=submit] {
+  background-color: #C26356;
+  border: 1px solid #2D2D2D;
+  font-family: "Source Code Pro", Menlo, Monaco, fixed-width;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  right:0;
+  width: 15%;
+}

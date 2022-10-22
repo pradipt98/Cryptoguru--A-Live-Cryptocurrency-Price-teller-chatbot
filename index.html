@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<title>Crypto Chat-Bot</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="initialBotMessage()">
+	<h1>Crypto-Bot Chat</h1>
+	<div class="box" id="chatbar"></div>
+	<div class="box" id="typebar">
+		<form onsubmit="return false;">
+			<input id="messagebox" type="text" autocomplete="off" placeholder="Type your message..." >
+			<input type="submit" onclick="addUserMessage();addBotAnswer()">
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
